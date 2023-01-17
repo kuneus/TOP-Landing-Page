@@ -15,12 +15,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 150px;
+    margin: 5px 150px 50px 150px;
 }
 
 .left-header {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .left-hero {
@@ -112,4 +113,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    width: 400px;
+
 }
