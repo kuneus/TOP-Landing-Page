@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;    
 }
 
 .header-container {
@@ -117,9 +118,26 @@ p {
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 blockquote {
-    width: 400px;
-
+    width: 600px;
+    font-size: 36px;
 }
+
+.quote {
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+}
+/* currently editing quote container */
