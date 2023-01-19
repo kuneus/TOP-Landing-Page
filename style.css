@@ -145,7 +145,6 @@ figcaption {
     font-size: 24px;
     color: #1F2937;
 }
-/* currently editing CTA container */
 
 .CTA-section {
     display: flex;
@@ -163,7 +162,7 @@ figcaption {
     align-items: center;
     background-color: #3882F6;
     padding: 40px 60px;
-    gap: 100px;
+    gap: 150px;
     width: 800px;
     border-radius: 8px;
     margin: 80px;
@@ -188,4 +187,18 @@ figcaption {
 
 .CTA-bottom-line {
     color:#E5E7EB;
+}
+
+/* currently editing footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 16px;
 }
