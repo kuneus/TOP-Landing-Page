@@ -38,13 +38,13 @@ body {
     color: #F9FAF8;
 }
 
-button {
+.sign-up {
     width: 120px; 
     background-color: #3882F6;
     color: white;
     padding: 8px 20px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
 }
 
@@ -129,7 +129,7 @@ p {
 }
 
 blockquote {
-    width: 600px;
+    width: 700px;
     font-size: 36px;
 }
 
@@ -145,4 +145,47 @@ figcaption {
     font-size: 24px;
     color: #1F2937;
 }
-/* currently editing quote container */
+/* currently editing CTA container */
+
+.CTA-section {
+    display: flex;
+    justify-content: center;
+}
+
+.left-cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.CTA-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 60px;
+    gap: 100px;
+    width: 800px;
+    border-radius: 8px;
+    margin: 80px;
+}
+
+.sign-up-cta {
+    width: 120px; 
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: white solid;
+}
+
+.CTA-top-line {
+    font-size: 22px;
+    color: white;
+    padding: 0px;
+    font-weight:500;
+}
+
+.CTA-bottom-line {
+    color:#E5E7EB;
+}
